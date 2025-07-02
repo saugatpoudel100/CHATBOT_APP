@@ -7,16 +7,22 @@ A simple machine learning-based chatbot for handling customer service queries li
 ## 🗂 Project Structure
 
 chatbot_app/
+
 ├── app.py # Flask application to serve chatbot API and frontend
+
 ├── model.py # Model training script (scikit-learn + TF-IDF)
+
 ├── requirements.txt # Python dependencies
 
 ├── model/ # Folder to store trained models
+
 │ ├── model.pkl # Trained classifier model
+
 │ └── vectorizer.pkl # Trained TF-IDF vectorizer
 
 ├── data/ # Training data folder
-│ └── intents.json # Contains tags, patterns, and responses
+│ 
+  └── intents.json # Contains tags, patterns, and responses
 
 ├── templates/ # HTML templates for chatbot UI
 │ └── index.html # Chatbot frontend (optional)
@@ -42,35 +48,28 @@ chatbot_app/
 ## 🔧 Setup Instructions
 
 ### 1. Clone the repository
-
-```bash
 git clone https://github.com/saugatpoudel100/CHATBOT_APP.git
 cd chatbot_app
-2. Create a virtual environment
-Edit
+---
+### 2. Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Install dependencies
 
-Edit
+### 3. Install dependencies
 pip install -r requirements.txt
-4. Train the chatbot model
 
-Edit
+### 4. Train the chatbot model
 python model.py
 This will create model/model.pkl and model/vectorizer.pkl.
 
-▶️ Running the Flask App
-bash
-Copy
-Edit
+### ▶️ Running the Flask App
 python app.py
 Open your browser and go to http://127.0.0.1:5000/ to interact with the chatbot.
 
-🧠 Training Data Format
+### 🧠 Training Data Format
 Example structure of intents.json:
 
-json
+### json
 
 {
   "intents": [
@@ -82,7 +81,8 @@ json
     ...
   ]
 }
-🚀 Deployment
+
+### 🚀 Deployment
 You can deploy this app to:
 
 Heroku
@@ -93,7 +93,7 @@ Vercel (backend only)
 
 Any VPS or server supporting Python/Flask
 
-🛠 Tech Stack
+### 🛠 Tech Stack
 Python 3
 
 Flask
@@ -104,10 +104,10 @@ HTML/CSS
 
 Tailwind CSS (optional for frontend styling)
 
-📄 License
+### 📄 License
 This project is licensed under the MIT License.
 
-🙋‍♂️ Author
+### 🙋‍♂️ Author
 Your Saugat
 
 Feel free to contribute or report issues!
