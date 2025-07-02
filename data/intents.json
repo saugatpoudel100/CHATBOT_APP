@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "I have to go"],
+      "responses": ["Goodbye! Have a great day.", "See you later! Feel free to ask anytime."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot"],
+      "responses": ["You’re welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["Can I cancel my order?", "How do I cancel my purchase?", "I want to cancel my order"],
+      "responses": ["You can cancel your order within 24 hours from purchase.", "Please visit your orders page to cancel the order."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my shipment", "Order status"],
+      "responses": ["You can check your order status in the 'My Orders' section.", "Use the tracking number sent to your email."]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["What is your return policy?", "How do I return an item?", "Can I return my purchase?"],
+      "responses": ["You can return products within 30 days of delivery.", "Please visit our returns page for detailed instructions."]
+    },
+    {
+      "tag": "refund_status",
+      "patterns": ["When will I get my refund?", "Refund status", "Have you processed my refund?"],
+      "responses": ["Refunds are processed within 5-7 business days.", "You will receive a confirmation email once the refund is complete."]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": ["Do you offer free shipping?", "Shipping costs", "How long does shipping take?"],
+      "responses": ["We offer free shipping on orders over $50.", "Shipping typically takes 3-5 business days."]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["What payment methods do you accept?", "Can I pay with PayPal?", "Payment options"],
+      "responses": ["We accept credit cards, PayPal, and Apple Pay.", "You can pay using Visa, Mastercard, PayPal, and more."]
+    },
+    {
+      "tag": "product_info",
+      "patterns": ["Do you have this product in stock?", "Is this item available?", "Can you tell me more about this product?"],
+      "responses": ["Please provide the product name or SKU so I can check availability.", "I can help you with product details. Which product are you interested in?"]
+    }
+  ]
+}
