@@ -5,6 +5,7 @@ A simple machine learning-based chatbot for handling customer service queries li
 ---
 
 ## 🗂 Project Structure
+```bash
 
 chatbot_app/
 
@@ -31,7 +32,7 @@ chatbot_app/
 │ └── styles.css # Tailwind CSS for styling UI
 
 
-
+```
 
 ---
 
@@ -48,29 +49,40 @@ chatbot_app/
 ## 🔧 Setup Instructions
 
 ### 1. Clone the repository
+```bash
 git clone https://github.com/saugatpoudel100/CHATBOT_APP.git
 cd chatbot_app
+```
 ---
+
 ### 2. Create a virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-### 3. Install dependencies
-pip install -r requirements.txt
+```
 
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 ### 4. Train the chatbot model
+```bash
 python model.py
+```
 This will create model/model.pkl and model/vectorizer.pkl.
 
 ### ▶️ Running the Flask App
+```bash
 python app.py
+```
 Open your browser and go to http://127.0.0.1:5000/ to interact with the chatbot.
 
 ### 🧠 Training Data Format
 Example structure of intents.json:
 
 ### json
-
+```bash
 {
   "intents": [
     {
@@ -81,8 +93,9 @@ Example structure of intents.json:
     ...
   ]
 }
-
-### 🚀 Deployment
+```
+---
+## 🚀 Deployment
 You can deploy this app to:
 
 Heroku
@@ -93,7 +106,9 @@ Vercel (backend only)
 
 Any VPS or server supporting Python/Flask
 
-### 🛠 Tech Stack
+---
+
+## 🛠 Tech Stack
 Python 3
 
 Flask
@@ -104,10 +119,13 @@ HTML/CSS
 
 Tailwind CSS (optional for frontend styling)
 
-### 📄 License
+---
+
+## 📄 License
 This project is licensed under the MIT License.
 
-### 🙋‍♂️ Author
+---
+## 🙋‍♂️ Author
 Your Saugat
 
 Feel free to contribute or report issues!
